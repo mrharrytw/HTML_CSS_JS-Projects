@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/registerForm_style.css">
+    <title>Register Form</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="title">
+            Resistration
+        </div>
+        <form method="#">
+            <div class="input_group">
+                <input type="text" class="userInput" placeholder="Enter your name..." autofocus required />
+            </div>
+            <div class="radio_btn_box">
+                <label>Gender : </label>
+                <input type="radio" name="gender" id="genderm" value="male" /> <label
+                    for="genderm">Male</label>
+                <input type="radio" name="gender" id="genderf" value="female" /> <label
+                    for="genderf">Female</label>
+            </div>
+            <div class="dob_select">
+		        <input type="date" name="dateOfBirth" id="dateOfBirth" class="userInput" />
+            </div>
+            <div class="input_group">
+                <input type="email" class="userInput" placeholder="Enter your email..." autofocus required />
+            </div>
+            <div class="input_group">
+                <input type="password" class="userInput" placeholder="Create password..." required />
+            </div>
+            <div class="input_group">
+                <input type="password" class="userInput" placeholder="Comfirm password..." required />
+            </div>
+            <div class="checkbox_group">
+                <input type="checkbox" name="checkbox" id="checkbox" class=""/>
+                <label for="checkbox">I accept all terms and conditions.</label>
+            </div>
+            <div class="botton_box">
+                <button type="submit" name="login" class="reg_btn">Register Now</button>
+            </div>
+        </form>
+
+            <div class="footer">
+                <span>Already have an account?</span>
+                <a href="./login.html" class="login_btn">login Now</a>
+            </div>
+
+    </div>
+
+</body>
+</html>

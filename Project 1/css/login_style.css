@@ -1,0 +1,108 @@
+body {
+    background-color: #353535;;
+}
+
+.content {
+    background-color: white;
+    max-width: 400px;
+    height: auto;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(255, 0, 0, 0.5);
+}
+
+.title {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-left: 20px;
+    color: red;
+}
+
+
+.checkbox_group,
+.forgotPass {
+    display: inline-block;
+}
+
+.input_group {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.userInput {
+    max-width: 350px;
+    width: 95%;
+    max-height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+
+.input_group input:is(:focus, :valid) {
+    border-bottom-color: indianred;
+}
+
+.checkbox_group {
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.forgotPass {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: 60px;
+    text-decoration: none;
+    color: indianred;
+}
+
+.forgotPass:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.botton_box {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.login_btn {
+    max-width: 350px;
+    width: 95%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: indianred;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login_btn:hover {
+    background-color: red;
+    box-shadow: 0 1px 10px rgba(255, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: indianred;
+}
+
+.footer a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
